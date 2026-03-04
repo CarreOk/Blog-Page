@@ -1,0 +1,75 @@
+body {background: #d299f7;
+background: linear-gradient(180deg,
+rgba(210, 153, 247, 0.73) 0%, 
+rgba(255, 201, 94, 0.75) 67%, 
+rgba(250, 100, 100, 0.75) 100%);}
+h1 {
+  font-family: 'Georgia', serif;
+  color: rgba(0, 11, 46, 0.793);
+  text-align: center;
+
+} 
+
+h2 {
+  font-family: 'Georgia', serif;
+  color: rgba(3, 20, 73, 0.793);
+}
+
+h3{
+  font-family: 'Georgia', serif;
+  color: black;
+
+}
+p {
+  font-family: 'Tahoma', sans-serif;
+  color: black;
+}
+.secret {
+font-family: 'Tahoma', sans-serif;
+  color: black
+  
+}
+
+ .container{
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  border-radius: 5px;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+} 
+
+
+#div001, #div002, #div003{
+ background: linear-gradient(180deg,rgba(210, 123, 247, 0.35) 0%, rgba(252, 192, 71, 0.35) 50%);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+  
+}
+#div004, #div005, #div006 {
+background: linear-gradient(180deg,rgba(255, 201, 94, 0.35) 0%, rgba(250, 100, 100, 0.35) 50%);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+  
+}
+#div007, #div008 {
+background: linear-gradient(180deg,rgba(255, 201, 94, 0.39) 0%, rgba(250, 100, 100, 0.39) 32%);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+ }
+
+ #div001 h2, #div002 h2, #div003 h2, #div001 h3, #div002 h3, #div003 h3{
+  color: rgba(1, 15, 62, 0.793);
+ }
+ #div004 h2, #div005 h2, #div006 h2, #div004 h3, #div005 h3, #div006 h3{
+  color: rgba(12, 36, 108, 0.793);
+ }      
+
+  #div007 h2, #div008 h2, #div007 h3, #div008 h3{
+    color: rgba(27, 45, 134, 0.562);
+  }
+ 
+
